@@ -16,7 +16,7 @@ const router = createBrowserRouter([
       { path: "album", element: <TechnicalAlbum /> },
     ],
   },
-]);
+], { basename: "/Industrialsafetyappui" });
 
 export default function App() {
   return <RouterProvider router={router} />;
